@@ -1,0 +1,24 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Virtual environments
+.venv/
+
+# Dataset files
+*.json
+*.jsonl
+*.parquet
+
+# Large model outputs
+models/
+checkpoints/
+outputs/
+
+# OS files
+.DS_Store
+Thumbs.db
