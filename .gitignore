@@ -19,6 +19,7 @@ models/
 checkpoints/
 outputs/
 lora_model/
+lora_model_final/
 *.zip
 *.safetensors
 *.bin
