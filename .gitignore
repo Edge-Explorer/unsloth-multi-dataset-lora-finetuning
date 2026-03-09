@@ -18,6 +18,11 @@ wheels/
 models/
 checkpoints/
 outputs/
+lora_model/
+*.zip
+*.safetensors
+*.bin
+*.gguf
 
 # OS files
 .DS_Store
