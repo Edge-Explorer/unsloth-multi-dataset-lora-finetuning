@@ -88,4 +88,4 @@ We use **Weights & Biases** to monitor:
 This project is licensed under the **MIT License**.
 
 ---
-*Built with ❤️ Edge-Explorer*
+*Built with ❤️ Karan Shelar*
