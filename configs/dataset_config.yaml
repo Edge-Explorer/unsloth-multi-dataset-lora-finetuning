@@ -1,0 +1,12 @@
+datasets:
+  - name: "alpaca"
+    path: "alpaca_dataset.json"
+    format: "json"
+  - name: "dolly"
+    path: "dolly_dataset.jsonl"
+    format: "json"
+  - name: "oasst"
+    path: "openassistant_dataset.parquet"
+    format: "parquet"
+
+output_file: "final_merged_dataset.jsonl"
