@@ -1,4 +1,4 @@
-model_nme: "unsloth/llama-3-8b-bnb-4bit"
+model_name: "unsloth/llama-3-8b-bnb-4bit"
 max_seq_length: 2048
 
 lora:
@@ -21,4 +21,3 @@ training:
   seed: 42
   output_dir: "outputs"
   dataset_path: "final_merged_dataset.jsonl"
-  
