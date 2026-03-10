@@ -1,0 +1,24 @@
+model_nme: "unsloth/llama-3-8b-bnb-4bit"
+max_seq_length: 2048
+
+lora:
+  r: 16
+  lora_alpha: 32  # doubled the rank for stability
+  target_modules: ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"]
+  lora_dropout: 0
+  bias: "none"
+
+training:
+  per_device_train_batch_size: 1
+  gradient_accumulation_steps: 8
+  warmup_steps: 10
+  max_steps: 300
+  learning_rate: 0.0002
+  logging_steps: 1
+  optim: "adamw_8bit"
+  weight_decay: 0.01
+  lr_scheduler_type: "linear"
+  seed: 42
+  output_dir: "outputs"
+  dataset_path: "final_merged_dataset.jsonl"
+  
