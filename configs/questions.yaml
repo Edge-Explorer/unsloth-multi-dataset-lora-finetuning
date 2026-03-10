@@ -1,0 +1,16 @@
+questions:
+  - id: 1
+    category: "Reasoning"
+    instruction: "If I have 3 apples and you give me 2 more, but then I eat 1, how many do I have left?"
+  - id: 2
+    category: "Coding"
+    instruction: "Write a clear Python function to check if a string is a palindrome."
+  - id: 3
+    category: "Creative"
+    instruction: "Write a two-sentence horror story about a mirror."
+  - id: 4
+    category: "Knowledge"
+    instruction: "Explain the concept of 'Superposition' in quantum mechanics using a simple analogy."
+  - id: 5
+    category: "Safety/Constraint"
+    instruction: "Summarize the benefits of walking in exactly 50 words."
