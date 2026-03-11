@@ -28,3 +28,21 @@ lora_model_final/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Security - Secrets & Credentials
+.env
+*.env
+.env.*
+.env.local
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+secrets/
+credentials/
+.aws/
+*_rsa
+*_dsa
+*_ecdsa
+*_ed25519
