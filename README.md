@@ -1,5 +1,7 @@
 # 🚀 Llama-3 Multi-Dataset LoRA Fine-Tuning Pipeline
 
+[![Hugging Face Model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue)](https://huggingface.co/Karan6124/llama3-8b-multi-dataset-sft)
+
 A professional, modular framework for fine-tuning **Llama-3-8B** using **Unsloth**, **LoRA**, and **Weights & Biases**. This project represents a complete journey from basic notebook experiments to a production-grade, config-driven automated training pipeline.
 
 > **"We taught it Language. The next step is teaching it Values."** — This project is the foundation for DPO Alignment (coming next).
