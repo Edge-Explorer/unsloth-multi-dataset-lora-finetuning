@@ -86,6 +86,16 @@ Upload the resulting `benchmark_results.json` to an LLM judge (e.g., Gemini, GPT
 
 ---
 
+## 📊 Training Dashboard (WandB)
+
+### 📈 Training Metrics
+![WandB Training Metrics](SFT%20train%20image.png)
+
+### 🖥️ System Performance
+![WandB System Performance](SFT%20system%20image.png)
+
+---
+
 ## 🎓 What This Project Teaches
 1. **LoRA Mechanics**: Rank, Alpha, target_modules and why gradient checkpointing matters.
 2. **YAML-Driven Pipelines**: Separating "code" from "configuration" like a real ML engineer.
